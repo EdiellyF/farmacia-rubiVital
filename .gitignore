@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Output CSS
+src/output.css
+
+# Logs
+*.log
+
+# Ambiente
+.env
+
+# Diretórios de build
+dist/
+build/
