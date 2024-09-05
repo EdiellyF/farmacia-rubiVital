@@ -1,0 +1,177 @@
+
+{
+
+        "medicamentos" : [
+            {
+                "nome": "Paracetamol 500mg",
+                "codigo_ean": "7891011234567",
+                "preco": 5.99,
+                "estoque": 100,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Ibuprofeno 200mg",
+                "codigo_ean": "7891011234568",
+                "preco": 8.49,
+                "estoque": 80,
+                "img" : "/data/imgs/ibuprofeno.png"
+            },
+            {
+                "nome": "Amoxicilina 500mg",
+                "codigo_ean": "7891011234569",
+                "preco": 12.99,
+                "estoque": 50,
+                "img" : "/data/imgs/7896004702223.jpg"
+            },
+            {
+                "nome": "Omeprazol 20mg",
+                "codigo_ean": "7891011234570",
+                "preco": 15.99,
+                "estoque": 60,
+                "img" : "/data/imgs/omeprazol.jpg"
+            },
+            {
+                "nome": "Dipirona 1g",
+                "codigo_ean": "7891011234571",
+                "preco": 4.99,
+                "estoque": 120,
+                "img":"/data/imgs/dipirona.jpg"
+            },
+            {
+                "nome": "Cetirizina 10mg",
+                "codigo_ean": "7891011234572",
+                "preco": 9.99,
+                "estoque": 70,
+                "img" : "/data/imgs/cetirizina.jpg"
+            },
+            {
+                "nome": "Loratadina 10mg",
+                "codigo_ean": "7891011234573",
+                "preco": 7.99,
+                "estoque": 90,
+                "img" : "/data/imgs/large-638545839550907523-134908_1.jpg"
+            },
+            {
+                "nome": "Ácido Acetilsalicílico 100mg",
+                "codigo_ean": "7891011234576",
+                "preco": 3.99,
+                "estoque": 150,
+                "img": "/data/imgs/large-638545839550907523-134908_1.jpg"
+            },
+            {
+                "nome": "Metformina 500mg",
+                "codigo_ean": "7891011234577",
+                "preco": 11.99,
+                "estoque": 65,
+                "img": "/data/imgs/large-638545839550907523-134908_1.jpg"
+            },
+            {
+                "nome": "Losartana 50mg",
+                "codigo_ean": "7891011234578",
+                "preco": 14.99,
+                "estoque": 55,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Hidroclorotiazida 25mg",
+                "codigo_ean": "7891011234579",
+                "preco": 5.49,
+                "estoque": 95,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Atenolol 50mg",
+                "codigo_ean": "7891011234580",
+                "preco": 8.99,
+                "estoque": 75,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Sinvastatina 20mg",
+                "codigo_ean": "7891011234581",
+                "preco": 13.99,
+                "estoque": 60,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+          
+            {
+                "nome": "Cloridrato de Metoclopramida 10mg",
+                "codigo_ean": "7891011234584",
+                "preco": 7.49,
+                "estoque": 100,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Diclofenaco Sódico 50mg",
+                "codigo_ean": "7891011234585",
+                "preco": 6.99,
+                "estoque": 85,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+        
+            {
+                "nome": "Cloridrato de Fluoxetina 20mg",
+                "codigo_ean": "7891011234588",
+                "preco": 17.99,
+                "estoque": 55,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Cloridrato de Ranitidina 150mg",
+                "codigo_ean": "7891011234591",
+                "preco": 11.49,
+                "estoque": 65,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Cloridrato de Nortriptilina 25mg",
+                "codigo_ean": "7891011234596",
+                "preco": 19.49,
+                "estoque": 35,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Cloridrato de Mirtazapina 30mg",
+                "codigo_ean": "7891011234600",
+                "preco": 27.49,
+                "estoque": 15,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Cloridrato de Citalopram 20mg",
+                "codigo_ean": "7891011234603",
+                "preco": 33.49,
+                "estoque": 10,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Cloridrato de Fluoxetina 40mg",
+                "codigo_ean": "7891011234605",
+                "preco": 37.49,
+                "estoque": 20,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Cloridrato de Amitriptilina 50mg",
+                "codigo_ean": "7891011234606",
+                "preco": 39.49,
+                "estoque": 25,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Cloridrato de Propranolol 80mg",
+                "codigo_ean": "7891011234607",
+                "preco": 41.49,
+                "estoque": 30,
+                "img" : "data/imgs/136786_0001_Analgesico-Tylenol-Sinus-500mg-24.png"
+            },
+            {
+                "nome": "Cloridrato de Ondansetrona 16mg",
+                "codigo_ean": "7891011234611",
+                "preco": 49.49,
+                "estoque": 50,
+                "img": "/data/imgs/large-638545839550907523-134908_1.jpg"
+            }
+]
+
+}
