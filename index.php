@@ -11,19 +11,29 @@
 <body class="">
     
     <div id="header">
-        <header>
-        <?php include 'src/php/topo.php'; ?>
-
-        </header>
+            <header>
+            <?php include 'src/php/topo.php'; ?>
+            </header>
 
             <section class="flex justify-center  ">
-      
             <?php include 'src/php/carrosel.php'; ?>
-
-       
-        
             </section>
        
+
+            <main class="container-div">
+                
+          
+            <div id="produtos">
+                <div class="produto"><img src="/src/imgs/produto1.png" alt="Produto 1"></div>
+                <div class="produto"><img src="/src/imgs/produto2.png" alt="Produto 2"></div>
+                <div class="produto"><img src="/src/imgs/produto3.png" alt="Produto 3"></div>
+                <div class="produto"><img src="/src/imgs/absorvete.png" alt="Produto 4"></div>
+            </div>
+            </main>
+                
+                
+
+            
   
         <script type="module" src="./src/js/main.js"></script>
   

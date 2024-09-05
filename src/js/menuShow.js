@@ -2,7 +2,7 @@ export class menuShow {
     constructor (mobilemenu){
         this.mobile_menu = document.querySelector(mobilemenu);
         this.activeClass = "active";
-        this.currentItem = 0;
+        // this.currentItem = 0;
     }
 
     init(){
@@ -12,6 +12,10 @@ export class menuShow {
         else {
             this.mobile_menu.classList.add(this.activeClass)
         }
+    }
+
+    currentitem(valor){
+        this.currentItem = valor;
     }
 
 }

@@ -69,7 +69,25 @@ header ul li,#mobile-menu ul li {
     margin-right: 0;
 }
 
+#produtos {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas para telas maiores */
+}
 
+#produtos .produto img {
+    width: 100%;
+    height: auto;
+}
+
+.container-div {
+    text-align: center;
+}
+.container-div h1 {
+    color: #d72b63;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 /* mobile-first */
 
 
@@ -103,7 +121,10 @@ header ul li,#mobile-menu ul li {
          display: block;
    }
 
-   
+   #produtos {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas para telas menores */
+}
+  
    
 
 }
@@ -121,5 +142,15 @@ section {
 
 section button {
     margin: 2px;
-
 }
+
+#prev, #next {
+    background-color: rgb(255, 217, 196);
+    padding: 8px;
+    border-radius: 20px;
+}
+
+#produtos{
+    padding: 15px;
+}
+
