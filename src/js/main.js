@@ -1,7 +1,8 @@
 import { menuShow} from './menuShow.js';
-import {Carousel} from './Carrosel.js'
+import {Carousel} from './Carrosel.js';
+import { Remedio, Remedios, RemediosView } from './Remedio.js';
 
-// Adicionando o evento de clique ao ícone do menu
+
 document.getElementById('mobile-menu-icon').addEventListener('click', () => {
     // Instanciando a classe com o ID do elemento
     const mobileMenuToggle = new menuShow('#mobile-menu');
@@ -11,29 +12,35 @@ document.getElementById('mobile-menu-icon').addEventListener('click', () => {
 
 new Carousel('.carousel-item', '#prev', '#next');
 
+const remedios = new Remedios();
 
-const med = document.querySelector(".produtos-container")
+function medicamentoSectionJson(){
+    fetch("/data/earn.json").then((response) => {
+        response.json().then((data) => {
+            data.medicamentos.map((medicamentoData) => {
+              const remedio =   new Remedio(
+                    medicamentoData.nome,
+                    medicamentoData.img,
+                    medicamentoData.preco,
+                    medicamentoData.estoque,
+                    medicamentoData.codigo_ean
+                );
+               remedios.inserirRemedio(remedio.toObject());
+               const viewRemedio = new RemediosView(remedios.getRemedio());
+               viewRemedio.exibirRemedios(".produtos-container")
+
+               console.log()
+               
+
+            })
+        });
+    })
+
+}
 
 
- fetch("/data/earn.json").then((response) => {
-    response.json().then((medicine) => {
-        medicine.medicamentos.map((remedio) => {
-            const produto = document.createElement('div');
-            produto.classList.add('produto-card')
-           
-           
-
-            produto.innerHTML = `
-            <img src="${remedio.img}" alt="${remedio.nome}">
-            <h2>${remedio.nome}</h2>
-            <p>Preço: R$${remedio.preco}</p>
-        `; 
 
 
-            med.appendChild(produto)
-        })
-   
-        })
- })
 
+medicamentoSectionJson();
 
