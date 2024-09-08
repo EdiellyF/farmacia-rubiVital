@@ -28,9 +28,6 @@
 - **Seção de Produtos**:
   - Galeria de produtos com imagens.
 
-- **Seção de Medicamentos**:
-  - Área dedicada para informações sobre medicamentos.
-
 - **Rodapé**:
   - Informações sobre os serviços oferecidos, incluindo atendimento farmacêutico, programas de saúde e testes rápidos.
 
