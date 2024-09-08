@@ -22,4 +22,5 @@ export class Carousel {
         this.currentItem = (this.currentItem + 1) % this.items.length;
         this.items[this.currentItem].classList.add('active');
     }
+
 }

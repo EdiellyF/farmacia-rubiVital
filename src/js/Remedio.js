@@ -41,7 +41,8 @@ class Remedios {
      getRemedio(){
         return this.#remedios;
      }
- 
+     
+  
  }
 
 
@@ -59,23 +60,44 @@ class Remedios {
             const produto = document.createElement('div'); 
             produto.classList.add("produto-card");
             produto.innerHTML = `
-              <img src="${med.img}" alt="${med.nome}">
+              <img src="${med.img}" alt="${med.nome} class=".produto-imagem" ">
                        <h2>${med.nome}</h2>
-                       <p>Preço: R$${med.preco}</p>  
+                       <p>Preço: R$${med.preco}</p> 
             `;
-
-            produto.appendChild(this.criarBotaoComprar())
+   
+            
+            produto.appendChild(this.criarBotaoComprar(med.codigo_earn));
             container.appendChild(produto);
     }
 
     
  }
 
-   criarBotaoComprar(){
+   criarBotaoComprar(codigo_ean){
             const botao = document.createElement('button');
-            botao.innerHTML = 'comprar'
+            botao.innerHTML = 'comprar';
+            botao.id = codigo_ean;
+            botao.classList.add('botaoComprar');
+            botao.addEventListener('click', this.#comprar);
             return botao;    
    }
+
+   #comprar(){
+         alert('É necessario login!');
+   }
+
+
+    pesquisarRemedio(valor) {
+        const medicamentos = this.remedio.filter(med => 
+            med.nome.toLowerCase().includes(valor.toLowerCase())
+          );
+        
+          const lista_pesquisada = new RemediosView(medicamentos);
+          lista_pesquisada.exibirRemedios('.produtos-container');
+          this.remedio = medicamentos;
+          return this.remedio;
+        
+    }
 
 
 }
