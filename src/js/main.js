@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             setTimeout(function() {
                 location.reload();
-              }, 70000); 
+              }, 30000); 
 
         });
     });
@@ -42,7 +42,12 @@ document.addEventListener('DOMContentLoaded', () => {
         botao.addEventListener('click', () => {
             const valorCampoPesquisaMobile = document.querySelector('#search-input-mobile').value;
             realizarPesquisa(valorCampoPesquisaMobile);
-            window.location.href = "#medicamentos"
+            window.location.href = "#medicamentos";
+
+
+            setTimeout(function() {
+                location.reload();
+              }, 30000); 
         });
     });
 
